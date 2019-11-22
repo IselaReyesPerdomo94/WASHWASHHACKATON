@@ -11,8 +11,7 @@ const Welcome = () => {
         <div className="welcome-container">
         <div className="logo-container">
         <img src={Logo} alt="logo-wash" className="logo-img"/>
-        </div>
-        
+        </div>      
           <nav className="navigation-menu">
           <Link to="/registerUser" className="user-btn">
           USUARIO
