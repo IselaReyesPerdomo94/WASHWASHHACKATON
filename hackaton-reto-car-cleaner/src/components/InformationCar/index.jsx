@@ -9,7 +9,7 @@ const Select = ({name, value, handleClickSelect}) =>{
             <div className="layer select-div">  
                   <section className="modal-confirmation text">
                         <HeaderModal /> 
-                           <p class="txt-confirm">Angus Dr. #2, Del. Benito Juárez</p>
+                           <p class="txt-confirm">Tonala 10, Del. Benito Juárez</p>
                            <p class ="txt-confirm">Elige las características de tu coche:</p>
                         
                      <section className="selects">
