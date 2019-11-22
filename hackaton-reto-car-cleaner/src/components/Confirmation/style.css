@@ -1,6 +1,6 @@
 .modal-confirmation {
-    width: 85%;
-    height: 70vh;
+    width: 95%;
+    height: fit-content;
     position: relative;
     border-radius: 10px;
     background-color: white;

@@ -1,6 +1,7 @@
 import React from 'react'
-import CreditCardInput from 'react-credit-card-input'
-import HeaderModal from '../HeaderModal/index'
+import CreditCardInput from 'react-credit-card-input';
+import HeaderModal from '../HeaderModal/index';
+import {Button} from '../index';
 import './style.css'
 
 
@@ -12,6 +13,7 @@ const CreditCard = () => {
          <p>Información de pago: </p>
          <p> dirección aquí</p>
          <CreditCardInput/>
+        <Button text="Pagar"/>
          </div>
      </div>
  )

@@ -7,5 +7,17 @@ import Confirmation from './Confirmation';
 import HeaderModal from './HeaderModal';
 import Select from './InformationCar';
 import CreditCard from './CreditCard';
+import ServiceCar from './ServiceCar';
 
-export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser, HeaderModal, Select, CreditCard }
+export {
+    Input,
+    FormEmployee,
+    MapComponent,
+    Button,
+    Confirmation,
+    FormUser,
+    HeaderModal,
+    Select,
+    CreditCard,
+    ServiceCar
+}
