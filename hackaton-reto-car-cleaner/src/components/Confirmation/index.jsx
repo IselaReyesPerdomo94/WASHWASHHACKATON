@@ -11,7 +11,7 @@ const Confirmation = ({washType, car, cost}) => {
             <article className="modal-confirmation">
                 <HeaderModal/>
                 <p>{washType}</p>
-                <p>Tonala 10, Del. Benito Juárez</p>
+                <p>Tonala 10, Del. Cuauhtémoc</p>
                 <p>{car}</p>
                 <p>Costo: $<span>{cost}</span></p>
                 <a>¿Algún objeto para documentar?</a>
