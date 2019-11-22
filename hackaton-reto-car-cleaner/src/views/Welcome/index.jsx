@@ -3,6 +3,7 @@ import './style.css';
 // import Button from '../../components/Button';
 import {Link} from 'react-router-dom';
 import Logo from '../../images/logowash.png'
+import RankUser from '../../components/RankUser/index'
 
 const Welcome = () => {
     return(
@@ -10,8 +11,7 @@ const Welcome = () => {
         <div className="welcome-container">
         <div className="logo-container">
         <img src={Logo} alt="logo-wash" className="logo-img"/>
-        </div>
-        
+        </div>      
           <nav className="navigation-menu">
           <Link to="/registerUser" className="user-btn">
           USUARIO
@@ -21,6 +21,7 @@ const Welcome = () => {
           </Link>
         </nav>  
         </div>
+        <RankUser/>
       </section> 
     )
 }

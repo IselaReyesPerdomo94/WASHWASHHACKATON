@@ -1,0 +1,24 @@
+.rank-opinion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rank-container {
+    width: 98%;
+    height: 18rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    color:black;
+}
+
+.opinion-user{
+    width: 50%;
+}
+
+.photo-stars {
+    width: 50%;
+    height: 6rem;
+}
