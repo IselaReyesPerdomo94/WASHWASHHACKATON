@@ -1,21 +1,26 @@
 import React from "react";
-import { MapComponent } from "../../components";
-import { Button } from "../../components";
-import { Input } from "../../components";
-
+import { MapComponent, Input} from "../../components";
+import {Link} from 'react-router-dom';
 import logo from "../../images/logowash.png";
 import "./style.css";
 
 const Home = () => {
+
+
   return (
-    <section className="home">
-        <div className="input-home">
-          <img src={logo} alt="imagen-logo" />
-          <Input type="text" placeholder="Escribe una dirección"/>
+    <main>
+      <section className="home">
+          <div className="input-home">
+            <img src={logo} alt="imagen-logo" />
+            <Input type="text" placeholder="Escribe una dirección"/>
+          </div>
+        <BoxWeather />
+        <MapComponent />
+        <div className="button-container">
+          <Link className="button button-service" to="/service">PEDIR SERVICIO</Link>
         </div>
-      <MapComponent />
-      <Button text="PEDIR SERVICIO" className="button-service"/>
-    </section>
+      </section>
+    </main>
   );
 };
 
