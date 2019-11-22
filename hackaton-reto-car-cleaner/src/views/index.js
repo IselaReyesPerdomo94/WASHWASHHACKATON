@@ -2,5 +2,9 @@ import RegisterEmployee from './RegisterEmployee';
 import RegisterUser from './RegisterUser';
 import Welcome from './Welcome';
 import Home from './Home';
+import Service from './Service';
+import Credit from './Credit';
+import Confirm from './Confirm'
+import Information from './Information';
 
-export { RegisterEmployee, RegisterUser, Welcome, Home }
+export { RegisterEmployee, RegisterUser, Welcome, Home, Service, Credit, Confirm, Information }

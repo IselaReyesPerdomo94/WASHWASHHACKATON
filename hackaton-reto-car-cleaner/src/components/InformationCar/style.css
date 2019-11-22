@@ -1,15 +1,14 @@
-.layer {
-    width: 70%;
-    height: 30rem;
+.select-div {
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
-.modal-confirmation {
+.text {
     font-size: 2rem;
     color: black;
 }
@@ -87,14 +86,6 @@ input {
 .btn-reg-car {
     width: 100P;
     height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button-car {
-    width: 7rem;
-    height: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;

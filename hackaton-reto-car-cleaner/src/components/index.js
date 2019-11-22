@@ -8,6 +8,8 @@ import HeaderModal from './HeaderModal';
 import BoxWeather from './BoxWeather';
 import Select from './InformationCar';
 import CreditCard from './CreditCard';
+import ServiceCar from './ServiceCar';
 
-export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser, HeaderModal ,BoxWeather, CreditCard, Select}
+
+export { Input, FormEmployee, MapComponent, Button, Confirmation, FormUser, HeaderModal ,BoxWeather, CreditCard, Select, ServiceCar}
 

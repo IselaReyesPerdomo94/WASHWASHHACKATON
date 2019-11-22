@@ -1,15 +1,14 @@
 import React from "react";
-import { MapComponent, Button, Input, Confirmation, CreditCard } from "../../components";
+import { MapComponent, Input} from "../../components";
+import {Link} from 'react-router-dom';
 import logo from "../../images/logowash.png";
 import "./style.css";
 
 const Home = () => {
+
+
   return (
     <main>
-      <div className="modal-container hide">
-        <Confirmation/>
-        <CreditCard/>
-      </div>
       <section className="home">
           <div className="input-home">
             <img src={logo} alt="imagen-logo" />
@@ -18,7 +17,7 @@ const Home = () => {
         <BoxWeather />
         <MapComponent />
         <div className="button-container">
-          <Button text="PEDIR SERVICIO" className="button-service"/>
+          <Link className="button button-service" to="/service">PEDIR SERVICIO</Link>
         </div>
       </section>
     </main>
