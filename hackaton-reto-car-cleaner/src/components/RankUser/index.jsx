@@ -11,7 +11,7 @@ const RankUser = () => {
 			<div className="rank-container">
 				<figure className="photo-stars">
 					<img src={Employee} alt="foto de Empleado" />
-                    <h6>Jorge Molina</h6>
+                    <p>Jorge Molina</p>
 					<ReactStars count={5} size={24} color2={'#ffd700'} />
 				</figure>
 				<article className="opinion-user">

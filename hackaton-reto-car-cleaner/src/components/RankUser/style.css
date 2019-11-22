@@ -20,10 +20,19 @@
 }
 
 .photo-stars {
-    height: 6rem;
-    overflow: hidden;
+    height: 14rem;
 }
 
 .photo-stars img {
-    height: 70%;
+    height: 50%;
+    width: 50%;
+    border-radius: 100%;
+}
+
+figure {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
