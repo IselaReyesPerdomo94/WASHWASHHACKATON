@@ -1,5 +1,5 @@
 import React from "react";
-import { MapComponent, Input} from "../../components";
+import { MapComponent, Input, BoxWeather} from "../../components";
 import {Link} from 'react-router-dom';
 import logo from "../../images/logowash.png";
 import "./style.css";

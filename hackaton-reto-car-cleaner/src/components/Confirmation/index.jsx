@@ -4,14 +4,14 @@ import {Link} from 'react-router-dom';
 
 import './style.css';
 
-const Confirmation = ({washType, address, car, cost}) => {
+const Confirmation = ({washType, car, cost}) => {
     
     return(
         <div className="layer">
             <article className="modal-confirmation">
                 <HeaderModal/>
                 <p>{washType}</p>
-                <p>{address}</p>
+                <p>Tonala 10, Del. Benito Juárez</p>
                 <p>{car}</p>
                 <p>Costo: $<span>{cost}</span></p>
                 <a>¿Algún objeto para documentar?</a>

@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .rank-container {
     width: 98%;
     height: 18rem;
@@ -11,14 +12,18 @@
     align-items: center;
     background-color: white;
     border-radius: 30px;
-    color:black;
+    color: black;
 }
 
-.opinion-user{
+.opinion-user {
     width: 50%;
 }
 
 .photo-stars {
-    width: 50%;
     height: 6rem;
+    overflow: hidden;
+}
+
+.photo-stars img {
+    height: 70%;
 }
