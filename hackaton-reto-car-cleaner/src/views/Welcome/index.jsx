@@ -3,7 +3,6 @@ import './style.css';
 // import Button from '../../components/Button';
 import {Link} from 'react-router-dom';
 import Logo from '../../images/logowash.png'
-import RankUser from '../../components/RankUser/index'
 
 const Welcome = () => {
     return(
@@ -21,7 +20,6 @@ const Welcome = () => {
           </Link>
         </nav>  
         </div>
-        <RankUser/>
       </section> 
     )
 }
