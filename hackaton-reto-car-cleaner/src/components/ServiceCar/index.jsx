@@ -9,7 +9,7 @@ const ServiceCar = ({handleClickServiceCar}) =>{
         <section className = "layer">
             <section className= "modal-confirmation contentServiceCar">
                     <p>Tu coche esta en...</p>
-                <h5>Tonala 10, Roma norte Delegación Benito Juarez</h5>
+                <h5>Tonala 10, Roma norte Del. Cuauhtémoc</h5>
 
                 <section className = "contentButton">
                     <button className = "buttonServiceCar">Calle</button>
