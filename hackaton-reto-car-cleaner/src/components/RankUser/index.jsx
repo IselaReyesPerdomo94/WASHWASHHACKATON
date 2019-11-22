@@ -23,7 +23,7 @@ const RankUser = () => {
 				</article>
 			</div>
 			<div>
-				<input className="button button-car" value="OK" />
+				<input className="button" value="OK" />
 			</div>
 		</section>
 	);
