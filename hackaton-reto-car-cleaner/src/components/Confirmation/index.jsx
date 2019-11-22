@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, HeaderModal} from '../index';
+import {Link} from 'react-router-dom';
 
 import './style.css';
 
@@ -14,7 +15,7 @@ const Confirmation = ({washType, address, car, cost}) => {
                 <p>{car}</p>
                 <p>Costo: $<span>{cost}</span></p>
                 <a>¿Algún objeto para documentar?</a>
-                <Button text="Siguiente"/>
+                <Link to="/rank" className="button">Confirmar</Link>
             </article>
         </div>
     )

@@ -1,8 +1,9 @@
 import React from 'react';
 import {Button} from '../index';
+import{Link} from 'react-router-dom'
 import "./style.css";
 
-const ServiceCar = () =>{
+const ServiceCar = ({handleClickServiceCar}) =>{
 
     return(
         <section className = "layer">
@@ -33,7 +34,7 @@ const ServiceCar = () =>{
                         <a className = "enlaceServiceCar" href="#">Mas info</a>
                     </section>
                 </section>
-                <Button text="Siguiente" />
+                <Link to="information" className="button">Siguiente</Link>
             </section>
         </section>
     )
